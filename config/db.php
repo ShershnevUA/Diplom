@@ -3,7 +3,7 @@
 return [
     'class' => 'yii\db\Connection',
     'dsn' => 'mysql:host=localhost;dbname=diplom',
-    'username' => 'odmen',
-    'password' => 'odmen',
+    'username' => 'diplom',
+    'password' => 'diplom',
     'charset' => 'utf8',
 ];
