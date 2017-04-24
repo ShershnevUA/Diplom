@@ -21,6 +21,8 @@ class m170323_104747_create_user_table extends Migration
             'position' => $this->string(),
             'rate' => $this->string(),
             'password' => $this->string(),
+            'auth_key' => $this->string(),
+            'access_token' => $this->string(),
             'time' => $this->timestamp(),
         ]);
     }
