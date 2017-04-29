@@ -19,8 +19,12 @@ class m170323_113724_create_junction_table_for_user_and_project_tables extends M
         $this->createTable('user_project', [
             'user_id' => $this->integer(),
             'project_id' => $this->integer(),
+            'task_id' => $this->integer(),
+            'name' => $this->string(),
             'hours' => $this->integer(),
             'percentage_of_completion' => $this->string(),
+            'description' => $this->text(),
+            'estimate' => $this->string(),
             'PRIMARY KEY(user_id, project_id)',
         ]);
 
