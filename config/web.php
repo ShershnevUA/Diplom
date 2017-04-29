@@ -51,7 +51,7 @@ $config = [
                 ['class' => 'yii\rest\UrlRule', 'controller' => 'project-statu'],
                 ['class' => 'yii\rest\UrlRule', 'controller' => 'project'],
                 ['class' => 'yii\rest\UrlRule', 'controller' => 'bonus-fine'],
-                ['class' => 'yii\rest\UrlRule', 'controller' => 'user-api'],
+                ['class' => 'yii\rest\UrlRule', 'controller' => 'user'],
                 ['class' => 'yii\rest\UrlRule', 'controller' => 'user-project'],
             ],
         ],
